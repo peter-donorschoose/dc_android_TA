@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1" android:orientation="vertical">
+	<TextView android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="15dip" android:id="@+id/main_header"
+		android:text="@string/main_header"></TextView>
+	<Button android:layout_width="86dp" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/recents_button" android:text="@string/recents_label"></Button>
+	<Button android:layout_width="86dp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/compose_button" android:text="@string/compose_button_label"></Button>
+	<Button android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:id="@+id/settings_button" android:text="@string/settings_button" android:layout_width="86dp"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_gravity="center_horizontal"
+		android:id="@+id/baked_messages_button" android:text="@string/baked_button_label" android:visibility="gone"></Button>
+	<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/frameLayout1" android:layout_weight="0.73"></FrameLayout>
+	<FrameLayout android:layout_width="match_parent" android:id="@+id/FrameLayout01" android:layout_height="wrap_content" android:layout_weight="0.07">
+		<Button android:text="@string/help_label" android:id="@+id/help_button" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="80dp"></Button>
+	</FrameLayout>
+	<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/frameLayout2" android:layout_weight="0.13">
+		<Button android:text="@string/about_label" android:layout_height="wrap_content" android:id="@+id/about_button" android:layout_width="80dp" android:layout_gravity="center"></Button>
+	</FrameLayout>
+	<FrameLayout android:layout_width="match_parent" android:id="@+id/frameLayout3" android:layout_height="35dp" android:layout_weight="0.07">
+		<ImageView android:src="@drawable/beer" android:layout_height="44dp" android:layout_width="44dp" android:id="@+id/ImageView01"></ImageView>
+		<TextView android:layout_height="wrap_content" android:layout_width="223dp" android:layout_gravity="right" android:id="@+id/reminder_info" android:text="@string/blank_string"></TextView>
+	</FrameLayout>
+</LinearLayout>

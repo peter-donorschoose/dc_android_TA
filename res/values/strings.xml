@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title">Keep Er Appy</string>
+	<string name="app_name">KeepErAppy</string>
+	<string name="main_header"></string>
+	<string name="baked_button_label">Pre-baked</string>
+	<string-array name="baked_array">
+		<item>KEA_SIGN_IN,\njust wondering how my favourite gal is doing today.\nKEA_SIGN_OFF
+		</item>
+		<item>KEA_SIGN_IN,\nthinking of you.\nKEA_SIGN_OFF
+		</item>
+	</string-array>
+	<string-array name="repeat_freq">
+		<item>Mon</item>
+		<item>Tues</item>
+		<item>Weds</item>
+		<item>Thu</item>
+		<item>Fri</item>
+		<item>Sat</item>
+		<item>Sun</item>
+	</string-array>
+	<string name="about_label">About</string>
+	<string name="about_text">\n\nAn Android coding demo by Peter Kingswell.\n\n</string>
+	<string name="email_address">peterkingswell+kea@gmail.com</string>
+	<string name="settings_button">Settings</string>
+	<string name="set_preferences">Preferences</string>
+	<string name="tmp">tmpValue</string>
+	<string name="recents_label">Recents</string>
+	<string name="PREF_NOT_PRESENT">KEA_PREF_NOT_PRESENT</string>
+	<string name="sign_in_pref1">sign_in_pref1</string>
+	<string name="compose_button_label">Compose</string>
+	<string name="compose_subject_label">Subject</string>
+	<string name="compose_sign_in_label">Sign in</string>
+	<string name="compose_sign_off_label">Sign off</string>
+	<string name="compose_go_button_label">Compose</string>
+	<string name="help_label">Help</string>
+	<string name="scheduler_service_started">org.psk.kea.SCHEDULER_STARTED</string>
+	<string name="scheduler_service_stopped">org.psk.kea.SCHEDULER_STOPPED</string>
+	<string name="scheduler_service_label">Keep Er Appy Thoughtfulness Scheduler</string>
+	<string name="scheduler_service_connected">org.psk.kea.SCHEDULER_CONNECTED</string>
+	<string name="scheduler_service_disconnected">org.psk.kea.SCHEDULER_DISCONNECTED</string>
+	<string name="create_shortcut_cb_label">Create shortcut</string>	
+	<string name="weather_button_label">Dump Weather</string>
+	<string name="preferences_earliest_time">Earliest</string>
+	<string name="preferences_latest_time">Latest</string>
+	<string name="originator">kea_originator</string>
+	<string name="reminder_earliest">reminder_earliest</string>
+	<string name="reminder_latest">reminder_latest</string>
+	<string name="help_text"><html><body>	
+<h2><b>Help</b></h2>\n\n
+<p>Keep Er Appy helps you keep your significant other happy. It does this by
+making short, sweet messages to your loved one easier and faster to write.\n\n</p>
+	
+<p>Firstly, fill out the settings:\n
+<b>email address</b> - of your loved one\n
+<b>subjects</b> - a list of subject lines you want to choose from\n
+<b>greetings</b> - a list of email greetings you want to choose from e.g. Hi Love!\n
+<b>sign offs</b> - a list of email sign-offs you want to choose from e.g. Later, Fred X\n\n</p>
+	
+<p>Then Compose and send a sweet message to your loved one.\n\n</p>
+
+<p>Check the "Create shortcut" checkbox and a handy shortcut will be put on the Home screen.
+Tapping it will create a new pre-populated email, ready for sending.\n\n</p>
+	
+<p>Sent messages are added to the "Recents" list for convenient future access.\n\n</p>
+	
+</body>
+</html>
+</string>
+	
+<string name="blank_string"></string>
+	
+<string name="fx_toggle">ecbSfxToggle</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/about_text" android:layout_height="wrap_content" android:text="@string/about_text" android:layout_width="match_parent" android:layout_weight="0.99"></TextView>
+    <EditText android:layout_width="match_parent" android:inputType="textEmailAddress" android:id="@+id/email_text" android:text="@string/email_address" android:editable="false" android:layout_height="wrap_content" android:cursorVisible="false" android:clickable="true" android:autoLink="email" android:focusable="false">
+    </EditText>
+    <ImageView android:src="@drawable/beer" android:layout_height="44dp" android:id="@+id/ImageView01" android:layout_gravity="bottom" android:layout_width="44dp"></ImageView>
+    
+</LinearLayout>

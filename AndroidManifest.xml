@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.psk.kea" android:versionCode="6" android:versionName="2.0.1">
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+	<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+	<application android:label="@string/app_name" android:icon="@drawable/beer"
+		android:description="@string/title" android:enabled="true"
+		android:killAfterRestore="true" android:allowTaskReparenting="false"
+		android:theme="@style/CustomTheme" android:debuggable="false">
+		<activity android:label="@string/app_name" android:name="KeepErAppyActivity"
+			android:launchMode="singleTask">
+		</activity>
+		<activity android:name=".SplashActivity" android:launchMode="singleTask"
+		android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.LAUNCHER"></category>
+			</intent-filter>
+		</activity>
+		<activity android:name="ComposeActivity"></activity>
+		<activity android:name="BakedMessagesActivity"></activity>
+		<activity android:name="AboutActivity"></activity>
+		<activity android:name="SettingsActivity"></activity>
+		<activity android:name="RecentsActivity"></activity>
+		<activity android:name=".HelpActivity"></activity>
+		<receiver android:process=":remote" android:name=".reminder.Notifier"></receiver>
+	</application>
+</manifest>

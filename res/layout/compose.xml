@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:weightSum="1">
+	<LinearLayout
+	    android:id="@+id/subject_layout"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical" android:layout_weight="0.25" android:layout_height="0dp">
+	    <TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" android:id="@+id/compose_subject_label"
+    		android:text="@string/compose_subject_label"></TextView>
+    	<Spinner android:layout_width="match_parent"
+    		android:layout_height="wrap_content" android:id="@+id/subjectSpinner"></Spinner>
+	</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/signInLayout"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical" android:layout_weight="0.25" android:layout_height="0dp">
+	    <TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" android:id="@+id/TextView01"
+    		android:text="@string/compose_sign_in_label"></TextView>
+    	<Spinner android:layout_width="match_parent"
+    		android:layout_height="wrap_content" android:id="@+id/signInSpinner"></Spinner>
+	</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/signOffLayout"
+	    android:layout_width="match_parent"
+	    android:orientation="vertical" android:layout_weight="0.25" android:layout_height="0dp">
+	    <TextView android:layout_width="wrap_content"
+    		android:layout_height="wrap_content" android:id="@+id/TextView02"
+    		android:text="@string/compose_sign_off_label"></TextView>
+    	<Spinner android:layout_width="match_parent"
+    		android:layout_height="wrap_content" android:id="@+id/sign_off_spinner"></Spinner>
+	</LinearLayout>
+	<CheckBox android:checked="false" android:id="@+id/create_shortcut_checkbox" android:text="@string/create_shortcut_cb_label" android:layout_height="wrap_content" android:layout_width="wrap_content"></CheckBox>
+	<Button android:text="@string/compose_go_button_label" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:id="@+id/compose_compose_button"></Button>
+	<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="0.24"></LinearLayout>
+	<ImageView android:src="@drawable/beer" android:layout_height="44dp" android:id="@+id/ImageView01" android:layout_width="44dp"></ImageView>
+
+</LinearLayout>

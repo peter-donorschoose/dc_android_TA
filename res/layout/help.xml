@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:icon="@drawable/beer_sm"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/help_text" android:layout_width="match_parent" android:text="@string/help_text" android:layout_height="433dp" android:layout_weight="0.33"></TextView>
+    <ImageView android:layout_weight="0.33" android:src="@drawable/beer" android:layout_height="44dp" android:id="@+id/ImageView01" android:layout_width="44dp"></ImageView>
+    
+</LinearLayout>
